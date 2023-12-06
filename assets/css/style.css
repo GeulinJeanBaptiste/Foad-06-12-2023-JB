@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+input {
+    width: 100%;
+}
+
+
+/* MENU */
+/* MENU */
+/* MENU */
+/* MENU */
+
+#menu {
+    height: 550px;
+    width: 100%;
+}
+
+#burger {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menu #menuIn {
+    width: 95%;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+#burger_icon {
+    width: 32px;
+    border: solid white 0.1rem;
+    border-radius: 5px;
+    padding: 0 .2rem;
+    cursor: pointer;
+}
+
+#menu #menuTitleSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu_title {
+    color: white;
+    text-align: center;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+.burgerMenu li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2rem;
+    background-color: white;
+    padding: 0 0.5rem;
+    color: grey;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    border: solid grey 0.1rem;
+    background-color: rgb(128, 128, 128, .33);
+    width: 100%;
+    padding: 0.2rem;
+}
+
+#post {
+    text-align: left;
+}
+
+#locstart,
+#locend {
+    display: flex;
+}
+
+#button_search {
+    color: white;
+    background-color: rgb(1, 163, 1, .33);
+}
+
+#search,
+#post,
+#locstart,
+#locend,
+#button_search {
+    padding: 0.3rem 0;
+}
+
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
+/* MAIN */
+
+
+
+#main {
+    width: 95%;
+    margin: auto;
+}
+
+#resultnumber {
+    padding-top: 0.5rem;
+    font-weight: 700;
+}
+
+#order {
+    text-align: right;
+}
+
+#order button {
+    padding: 0.3rem;
+}
+
+#main #main_cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#description_title,
+#description_text,
+#description_price {
+    display: none;
+}
+
+#car {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#car #button_buy {
+    background-color: rgb(1, 163, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 0.4rem;
+    font-size: 10px;
+}
+
+.fa-caret-left,
+.fa-caret-right {
+    cursor: pointer;
+}
